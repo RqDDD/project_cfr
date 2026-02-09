@@ -8,7 +8,7 @@
 #include "projet_cfr/services/CameraViewModel.h"
 
 
-// gtgt
+// gtgtt
 
 int main(int argc, char *argv[]) {
     QGuiApplication app(argc, argv);
