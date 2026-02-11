@@ -4,6 +4,21 @@ set_source_files_properties(
 )
 
 set_source_files_properties(
+  ../ui/qml/WorkspacePage.qml
+  PROPERTIES QT_RESOURCE_ALIAS WorkspacePage.qml
+)
+
+set_source_files_properties(
+  ../ui/qml/CameraPane.qml
+  PROPERTIES QT_RESOURCE_ALIAS CameraPane.qml
+)
+
+set_source_files_properties(
+  ../ui/qml/BpmnPane.qml
+  PROPERTIES QT_RESOURCE_ALIAS BpmnPane.qml
+)
+
+set_source_files_properties(
   ../ui/assets/icons/app.svg
   PROPERTIES QT_RESOURCE_ALIAS icons/app.svg
 )
@@ -17,6 +32,9 @@ qt_add_qml_module(projet_cfr_app
   VERSION 1.0
   QML_FILES
     ../ui/qml/Main.qml
+    ../ui/qml/WorkspacePage.qml
+    ../ui/qml/CameraPane.qml
+    ../ui/qml/BpmnPane.qml
   RESOURCES
     ../ui/assets/icons/app.svg
 )
