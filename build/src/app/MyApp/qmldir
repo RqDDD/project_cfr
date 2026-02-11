@@ -1,5 +1,0 @@
-module MyApp
-typeinfo projet_cfr_app.qmltypes
-prefer :/MyApp/
-Main 1.0 Main.qml
-

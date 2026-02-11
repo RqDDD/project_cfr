@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="/MyApp/">
-    <file alias="Main.qml">/home/rodolphe/Bureau/cfr_project/src/app/../ui/qml/Main.qml</file>
-    <file alias="icons/app.svg">/home/rodolphe/Bureau/cfr_project/src/app/../ui/assets/icons/app.svg</file>
-  </qresource>
-</RCC>
-
